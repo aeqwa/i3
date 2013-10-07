@@ -1,0 +1,16 @@
+exec ~/.i3/autostart
+
+# assign
+assign [class="Firefox"] 3
+assign [class="Steam"] 5
+assign [class="Skype"] 6
+for_window [class="feh"] floating enable
+for_window [class="qemu"] floating enable
+for_window [class="Pavucontrol"] floating enable
+
+workspace 1 output CRT1
+workspace 2 output CRT1
+workspace 3 output CRT2
+workspace 4 output CRT1
+workspace 5 output CRT1
+workspace 6 output CRT1

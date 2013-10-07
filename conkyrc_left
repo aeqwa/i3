@@ -1,0 +1,29 @@
+background 				no
+out_to_console 			yes
+out_to_x 				no
+update_interval    		0.5		
+total_run_times	 		0	
+short_units 			yes
+override_utf8_locale	no
+own_window 				no
+use_spacer 				left
+cpu_avg_samples 		2
+max_text_width 			0
+
+TEXT
+
+,[
+	{
+		"full_text": 	"cpu: $cpu%", 
+        "separator":    false,
+        "separator_block_width": 30
+	},
+	{
+		"full_text": 	"ram: $memperc%", 
+        "separator":    false,
+        "separator_block_width": 30
+	},   
+	{
+		"full_text": 	"${time %a %d.%m.%y} ${time %H:%M:%S}"
+	}
+]
