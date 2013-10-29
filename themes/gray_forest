@@ -18,6 +18,7 @@ bar {
     output CRT2
     status_command ~/.i3/conky right
     font xft:Terminess Powerline 10
+    tray_output none
 	colors
 	{
 		background #0F1120
