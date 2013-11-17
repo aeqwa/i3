@@ -2,10 +2,10 @@
 
 THEME="mono"
 
-rm config
-cat rules >> config
-cat themes/${THEME} >> config
-cat keys  >> config
-cat modes >> config
+rm ~/.i3/config
+cat ~/.i3/rules >> ~/.i3/config
+cat ~/.i3/themes/${THEME} >> ~/.i3/config
+cat ~/.i3/keys  >> ~/.i3/config
+cat ~/.i3/modes >> ~/.i3/config
 
-cat themes/${THEME}.x.res >> ~/.Xresources
+cat ~/.i3/themes/${THEME}.x.res >> ~/.Xresources

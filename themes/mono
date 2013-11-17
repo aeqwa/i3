@@ -5,6 +5,7 @@ exec --no-startup-id hsetroot -solid #000000
 
 # window border width
 new_window pixel 1
+hide_edge_borders none
 
 #                       border  backgr. text    indicator
 client.focused          #FFFFFF #FFFFFF #000000 #FFFFFF
@@ -25,9 +26,9 @@ bar {
 		statusline #FFFFFF  
 		separator  #000000
 		
-		focused_workspace  #000000 #000000 #FFFFFF
-		active_workspace   #000000 #000000 #FFFFFF
-		inactive_workspace #000000 #000000 #000000
+		focused_workspace  #000000 #000000 #006BFF
+		active_workspace   #000000 #000000 #006BFF
+		inactive_workspace #000000 #000000 #FFFFFF
 	}
 
 }
@@ -43,8 +44,8 @@ bar {
 		statusline #FFFFFF  
 		separator  #000000
 		
-		focused_workspace  #000000 #000000 #FFFFFF
-		active_workspace   #000000 #000000 #FFFFFF
-		inactive_workspace #000000 #000000 #000000
+		focused_workspace  #000000 #000000 #006BFF
+		active_workspace   #000000 #000000 #006BFF
+		inactive_workspace #000000 #000000 #FFFFFF
 	}
 }
