@@ -8,14 +8,20 @@ URxvt.saveLines: 	5000
 
 URxvt.iso14755:     false
 URxvt.iso14755_52:  false
+URxvt.keysym.C-S-Up:   perl:font-size:incglobal
+URxvt.keysym.C-S-Down: perl:font-size:decglobal
+/*URxvt.keysym.C-S-Up:     perl:font-size:increase*/
+/*URxvt.keysym.C-S-Down:   perl:font-size:decrease*/
 
-URxvt.keysym.C-S-Up:     perl:font-size:increase
-URxvt.keysym.C-S-Down:   perl:font-size:decrease
+URxvt.font: 		xft:Inconsolata:pixelsize=12
 
-*font: 		xft:Inconsolata:pixelsize=12
-
-URxvt.background:   #000000
+URxvt.background:   [50]#000000
 URxvt.foreground:   #FFFFFF
+
+XTerm.font: 		xft:Inconsolata:pixelsize=12
+
+XTerm.background:   #000000
+XTerm.foreground:   #FFFFFF
 
 *color0:    #000000
 *color1:    #FF00B9

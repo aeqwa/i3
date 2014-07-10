@@ -1,4 +1,4 @@
-font xft:Inconsolata
+font xft:Terminess Powerline 10
 
 # background
 exec --no-startup-id feh --bg-center ~/.i3/themes/gray_forest.jpg
@@ -15,7 +15,7 @@ client.unfocused        #0F1120 #0F1120 #EFFFFF #0F1120
 # finds out, if available)
 bar {
 	position top
-    output CRT2
+    output DVI-0
     status_command ~/.i3/conky right
     font xft:Terminess Powerline 10
     tray_output none
@@ -34,7 +34,7 @@ bar {
 
 bar {
     position top
-    output CRT1
+    output DVI-1
     status_command ~/.i3/conky left
     font xft:Terminess Powerline 10
 	colors

@@ -1,3 +1,4 @@
 #!/bin/sh
 
 skype &
+xmodmap ~/.Xmodmap &

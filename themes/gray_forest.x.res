@@ -12,26 +12,39 @@ URxvt.iso14755_52:  false
 URxvt.keysym.C-S-Up:     perl:font-size:increase
 URxvt.keysym.C-S-Down:   perl:font-size:decrease
 
-*font: 		xft:Terminess Powerline:pixelsize=10
+URxvt.font: 		xft:Terminess Powerline:pixelsize=10
 
-URxvt.background:   [80]#0F1120
+URxvt.background:   #0F1120
 URxvt.foreground:   #D9D8D1
 
+!black
 *color0:    #000000
-*color1:    #FF00B9
-*color2:    #BEFF00
-*color3:    #FF9F00
-*color4:    #006BFF
-*color5:    #A400FF
+*color8:		#000000
+
+!red
+*color1:    #FF0000
+*color9:		#FF0000
+
+!green
+*color2:    #00FF00
+*color10:	#00FF00
+
+!brown/yellow
+*color3:    #FFFF00
+*color11:	#FFFF00
+
+!blue
+*color4:    #0000FF
+*color12:	#0000FF
+
+!magenta
+*color5:    #FF00FF
+*color13:	#FF00FF
+
+!cyan
 *color6:    #00FFFF
+*color14:	#00FFFF
+
+!white
 *color7:    #FFFFFF
-
-*color8:    #000000
-*color9:    #FF00B9
-*color10:   #BEFF00
-*color11:   #FF9F00
-*color12:   #006BFF
-*color13:   #A400FF
-*color14:   #00FFFF
-*color15:   #FFFFFF
-
+*color15:	#FFFFFF
